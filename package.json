@@ -1,6 +1,6 @@
 {
-  "name": "@gudlaugvestmann/eslint-plugin-no-moment",
-  "version": "1.0.0",
+  "name": "@gudlaugvest/eslint-plugin-no-moment",
+  "version": "1.0.1",
   "description": "ESLint plugin to forbid the use of moment.js",
   "main": "index.js",
   "files": [
@@ -17,15 +17,16 @@
     "moment",
     "date"
   ],
-  "author": "gudlaugvestmann",
+  "author": "gudlaugvest",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gudlaugvestmann/eslint-plugin-no-moment.git"
+    "url": "git+https://github.com/gudlaugvest/eslint-plugin-no-moment.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "registry": "https://registry.npmjs.org/"
   },
+
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
